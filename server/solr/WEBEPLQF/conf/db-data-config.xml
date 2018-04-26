@@ -1,0 +1,15 @@
+<dataConfig>
+    <dataSource name="jdbc"
+                driver="oracle.jdbc.driver.OracleDriver"
+                url="jdbc:oracle:thin:@ryelxwebeqfdbc1.rye.avon.com:1521:webgplqf"
+                user="readonly"
+                password="readonly"/>
+    <document>
+        <entity name="filter_rqst"
+                query="SELECT distinct 'filter_rqst' as entityType,
+                       'filter_rqst-' || to_char(RQST_ID) as ID,
+                       RQST_ID
+                       FROM rqst"/>
+    </document>
+</dataConfig>
+

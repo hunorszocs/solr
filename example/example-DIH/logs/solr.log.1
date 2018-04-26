@@ -1,0 +1,595 @@
+INFO  - 2018-04-25 14:49:18.252; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @578ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  - 2018-04-25 14:49:18.489; [   ] org.eclipse.jetty.server.Server; jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+INFO  - 2018-04-25 14:49:18.521; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///C:/Programs/solr/solr-7.3.0/server/contexts/] at interval 0
+INFO  - 2018-04-25 14:49:18.988; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-04-25 14:49:18.997; [   ] org.eclipse.jetty.server.session.DefaultSessionIdManager; DefaultSessionIdManager workerName=node0
+INFO  - 2018-04-25 14:49:18.998; [   ] org.eclipse.jetty.server.session.DefaultSessionIdManager; No SessionScavenger set, using defaults
+INFO  - 2018-04-25 14:49:19.002; [   ] org.eclipse.jetty.server.session.HouseKeeper; Scavenging every 660000ms
+INFO  - 2018-04-25 14:49:19.051; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr™ version 7.3.0
+INFO  - 2018-04-25 14:49:19.051; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in standalone mode on port 8983
+INFO  - 2018-04-25 14:49:19.051; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: C:\Programs\solr\solr-7.3.0
+INFO  - 2018-04-25 14:49:19.065; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2018-04-25T14:49:19.052Z
+INFO  - 2018-04-25 14:49:19.112; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr
+INFO  - 2018-04-25 14:49:19.127; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr.xml
+INFO  - 2018-04-25 14:49:19.980; [   ] org.apache.solr.core.CorePropertiesLocator; Found 5 core definitions underneath C:\Programs\solr\solr-7.3.0\example\example-DIH\solr
+INFO  - 2018-04-25 14:49:19.981; [   ] org.apache.solr.core.CorePropertiesLocator; Cores are: [atom, db, mail, solr, tika]
+INFO  - 2018-04-25 14:49:19.986; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2018-04-25 14:49:19.995; [   x:db] org.apache.solr.core.SolrResourceLoader; [null] Added 2 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/example/example-DIH/solr/db/lib]
+INFO  - 2018-04-25 14:49:20.029; [   x:atom] org.apache.solr.core.SolrResourceLoader; [atom] Added 2 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/dist]
+WARN  - 2018-04-25 14:49:20.056; [   x:mail] org.apache.solr.core.SolrConfig; Couldn't add files from C:\Programs\solr\solr-7.3.0\contrib\dataimporthandler\lib filtered by .*\.jar to classpath: C:\Programs\solr\solr-7.3.0\contrib\dataimporthandler\lib
+INFO  - 2018-04-25 14:49:20.062; [   x:mail] org.apache.solr.core.SolrResourceLoader; [mail] Added 55 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/contrib/dataimporthandler-extras/lib, /C:/Programs/solr/solr-7.3.0/contrib/extraction/lib, /C:/Programs/solr/solr-7.3.0/contrib/langid/lib, /C:/Programs/solr/solr-7.3.0/contrib/velocity/lib, /C:/Programs/solr/solr-7.3.0/dist]
+INFO  - 2018-04-25 14:49:20.168; [   x:atom] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.3.0
+WARN  - 2018-04-25 14:49:20.245; [   x:db] org.apache.solr.core.SolrConfig; Couldn't add files from C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db\..\..\..\dist filtered by .*\.jar to classpath: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db\..\..\..\dist
+INFO  - 2018-04-25 14:49:20.246; [   x:db] org.apache.solr.core.SolrResourceLoader; [db] Added 52 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/contrib/extraction/lib, /C:/Programs/solr/solr-7.3.0/contrib/langid/lib, /C:/Programs/solr/solr-7.3.0/contrib/velocity/lib, /C:/Programs/solr/solr-7.3.0/dist]
+INFO  - 2018-04-25 14:49:20.294; [   x:mail] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-04-25 14:49:20.304; [   x:mail] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.3.0
+INFO  - 2018-04-25 14:49:20.367; [   x:db] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-04-25 14:49:20.370; [   x:db] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.3.0
+INFO  - 2018-04-25 14:49:20.421; [   x:atom] org.apache.solr.schema.IndexSchema; [atom] Schema name=example-DIH-atom
+INFO  - 2018-04-25 14:49:20.535; [   x:mail] org.apache.solr.schema.IndexSchema; [mail] Schema name=example-DIH-mail
+INFO  - 2018-04-25 14:49:20.548; [   x:db] org.apache.solr.schema.IndexSchema; [db] Schema name=example-DIH-db
+WARN  - 2018-04-25 14:49:20.711; [   x:mail] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+WARN  - 2018-04-25 14:49:20.715; [   x:db] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+INFO  - 2018-04-25 14:49:20.775; [   x:atom] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-atom/1.6 with uniqueid field id
+INFO  - 2018-04-25 14:49:20.787; [   x:atom] org.apache.solr.core.CoreContainer; Creating SolrCore 'atom' using configuration from instancedir C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\atom, trusted=true
+INFO  - 2018-04-25 14:49:20.854; [   x:atom] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-04-25 14:49:20.896; [   x:atom] org.apache.solr.core.SolrCore; [[atom] ] Opening new SolrCore at [C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\atom], dataDir=[C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\atom\data\]
+INFO  - 2018-04-25 14:49:20.953; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@5bb21b69{/solr,file:///C:/Programs/solr/solr-7.3.0/server/solr-webapp/webapp/,AVAILABLE}{file:///C:/Programs/solr/solr-7.3.0/server//solr-webapp/webapp}
+INFO  - 2018-04-25 14:49:21.012; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@7f284218{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-04-25 14:49:21.012; [   ] org.eclipse.jetty.server.Server; Started @3340ms
+INFO  - 2018-04-25 14:49:21.271; [   x:mail] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-mail/1.6 with uniqueid field messageId
+INFO  - 2018-04-25 14:49:21.321; [   x:db] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db/1.6 with uniqueid field id
+INFO  - 2018-04-25 14:49:21.406; [   x:db] org.apache.solr.core.CoreContainer; Creating SolrCore 'db' using configuration from instancedir C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db, trusted=true
+INFO  - 2018-04-25 14:49:21.416; [   x:db] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-04-25 14:49:21.417; [   x:db] org.apache.solr.core.SolrCore; [[db] ] Opening new SolrCore at [C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db], dataDir=[C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db\data\]
+INFO  - 2018-04-25 14:49:21.447; [   x:db] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-04-25 14:49:21.482; [   x:mail] org.apache.solr.core.CoreContainer; Creating SolrCore 'mail' using configuration from instancedir C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\mail, trusted=true
+INFO  - 2018-04-25 14:49:21.483; [   x:mail] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-04-25 14:49:21.483; [   x:mail] org.apache.solr.core.SolrCore; [[mail] ] Opening new SolrCore at [C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\mail], dataDir=[C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\mail\data\]
+INFO  - 2018-04-25 14:49:21.488; [   x:mail] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-04-25 14:49:21.622; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=337
+INFO  - 2018-04-25 14:49:21.721; [   x:db] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-04-25 14:49:21.721; [   x:mail] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-04-25 14:49:21.721; [   x:db] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-04-25 14:49:21.722; [   x:mail] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-04-25 14:49:21.726; [   x:atom] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2018-04-25 14:49:21.731; [   x:atom] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-04-25 14:49:21.763; [   x:mail] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-04-25 14:49:21.763; [   x:mail] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-04-25 14:49:21.770; [   x:db] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-04-25 14:49:21.770; [   x:db] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-04-25 14:49:21.845; [   x:atom] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@75238ae2[atom] main]
+INFO  - 2018-04-25 14:49:21.847; [   x:mail] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@68735f3d[mail] main]
+INFO  - 2018-04-25 14:49:21.862; [   x:mail] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\mail\conf
+INFO  - 2018-04-25 14:49:21.863; [   x:atom] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\atom\conf
+INFO  - 2018-04-25 14:49:21.891; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-04-25 14:49:21.895; [   x:atom] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-04-25 14:49:21.898; [   x:mail] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-04-25 14:49:21.907; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-04-25 14:49:21.910; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:21.950; [   x:db] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1a1174ad[db] main]
+INFO  - 2018-04-25 14:49:21.953; [   x:db] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db\conf
+INFO  - 2018-04-25 14:49:21.954; [   x:db] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-04-25 14:49:21.954; [   x:db] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-04-25 14:49:21.955; [   x:db] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-04-25 14:49:21.955; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:21.974; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:21.976; [   x:db] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@7cff4ed3, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-04-25 14:49:21.978; [   x:db] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\db\conf\elevate.xml
+INFO  - 2018-04-25 14:49:21.984; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:21.985; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@425a5f64, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-04-25 14:49:21.985; [   x:mail] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\mail\conf\elevate.xml
+INFO  - 2018-04-25 14:49:21.996; [   x:db] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-04-25 14:49:22.005; [   x:mail] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-04-25 14:49:22.085; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1a1174ad[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.3.0):C16)))}
+INFO  - 2018-04-25 14:49:22.085; [   x:atom] org.apache.solr.core.SolrCore; [atom] Registered new searcher Searcher@75238ae2[atom] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:22.088; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@68735f3d[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:22.096; [   ] org.apache.solr.core.SolrResourceLoader; [tika] Added 42 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/contrib/extraction/lib, /C:/Programs/solr/solr-7.3.0/dist]
+INFO  - 2018-04-25 14:49:22.157; [   ] org.apache.solr.core.SolrResourceLoader; [solr] Added 52 libs to classloader, from paths: [/C:/Programs/solr/solr-7.3.0/contrib/extraction/lib, /C:/Programs/solr/solr-7.3.0/contrib/langid/lib, /C:/Programs/solr/solr-7.3.0/contrib/velocity/lib, /C:/Programs/solr/solr-7.3.0/dist]
+INFO  - 2018-04-25 14:49:22.171; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.3.0
+INFO  - 2018-04-25 14:49:22.181; [   ] org.apache.solr.schema.IndexSchema; [tika] Schema name=example-DIH-tika
+INFO  - 2018-04-25 14:49:22.194; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-tika/1.6 with uniqueid field id
+INFO  - 2018-04-25 14:49:22.195; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'tika' using configuration from instancedir C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\tika, trusted=true
+INFO  - 2018-04-25 14:49:22.195; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-04-25 14:49:22.196; [   ] org.apache.solr.core.SolrCore; [[tika] ] Opening new SolrCore at [C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\tika], dataDir=[C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\tika\data\]
+INFO  - 2018-04-25 14:49:22.213; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=116
+INFO  - 2018-04-25 14:49:22.213; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-04-25 14:49:22.214; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-04-25 14:49:22.214; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-04-25 14:49:22.214; [   x:mail] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-04-25 14:49:22.214; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-04-25 14:49:22.237; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=4 status=0 QTime=145
+INFO  - 2018-04-25 14:49:22.242; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2018-04-25 14:49:22.244; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.3.0
+INFO  - 2018-04-25 14:49:22.247; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-04-25 14:49:22.247; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-04-25 14:49:22.248; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-04-25 14:49:22.248; [   x:db] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-04-25 14:49:22.248; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-04-25 14:49:22.334; [   ] org.apache.solr.schema.IndexSchema; [solr] Schema name=example-DIH-solr
+INFO  - 2018-04-25 14:49:22.345; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2018-04-25 14:49:22.345; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-04-25 14:49:22.387; [   x:mail] org.apache.solr.core.SolrCore; [mail] Registered new searcher Searcher@68735f3d[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:22.388; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1ddd8dee[tika] main]
+INFO  - 2018-04-25 14:49:22.391; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\tika\conf
+INFO  - 2018-04-25 14:49:22.391; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-04-25 14:49:22.402; [   x:db] org.apache.solr.core.SolrCore; [db] Registered new searcher Searcher@1a1174ad[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(7.3.0):C16)))}
+INFO  - 2018-04-25 14:49:22.403; [   ] org.apache.solr.core.SolrCore; [tika] Registered new searcher Searcher@1ddd8dee[tika] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:22.554; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-solr/1.6 with uniqueid field id
+INFO  - 2018-04-25 14:49:22.587; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'solr' using configuration from instancedir C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr, trusted=true
+INFO  - 2018-04-25 14:49:22.587; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-04-25 14:49:22.587; [   ] org.apache.solr.core.SolrCore; [[solr] ] Opening new SolrCore at [C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr], dataDir=[C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr\data\]
+INFO  - 2018-04-25 14:49:22.594; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-04-25 14:49:22.637; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-04-25 14:49:22.638; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-04-25 14:49:22.640; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-04-25 14:49:22.641; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-04-25 14:49:22.644; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@354c7bb6[solr] main]
+INFO  - 2018-04-25 14:49:22.644; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr\conf
+INFO  - 2018-04-25 14:49:22.645; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-04-25 14:49:22.645; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-04-25 14:49:22.645; [   ] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2018-04-25 14:49:22.646; [   ] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:22.646; [   ] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2018-04-25 14:49:22.646; [   ] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@7e0d50a9, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2018-04-25 14:49:22.646; [   ] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Programs\solr\solr-7.3.0\example\example-DIH\solr\solr\conf\elevate.xml
+INFO  - 2018-04-25 14:49:22.649; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-04-25 14:49:22.655; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@354c7bb6[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:22.655; [   ] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1598730023893729280
+INFO  - 2018-04-25 14:49:22.657; [   ] org.apache.solr.core.SolrCore; [solr]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1
+INFO  - 2018-04-25 14:49:22.657; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-04-25 14:49:22.658; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-04-25 14:49:22.658; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2018-04-25 14:49:22.658; [   ] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2018-04-25 14:49:22.658; [   ] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2018-04-25 14:49:22.664; [   ] org.apache.solr.core.SolrCore; [solr] Registered new searcher Searcher@354c7bb6[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2018-04-25 14:49:23.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=3
+INFO  - 2018-04-25 14:49:25.235; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:25.846; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=47
+INFO  - 2018-04-25 14:49:27.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:29.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:31.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:33.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:35.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:37.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:39.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:41.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:43.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:45.229; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:47.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:49.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:51.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:53.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:55.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:49:57.233; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=2
+INFO  - 2018-04-25 14:49:59.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:01.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:03.228; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:05.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:07.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:09.232; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:11.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:13.233; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:15.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:17.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:19.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:21.231; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=1
+INFO  - 2018-04-25 14:50:23.255; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:25.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:27.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:29.230; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:31.230; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:33.237; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:35.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:37.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:39.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:41.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:43.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:45.234; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:47.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:49.228; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:51.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:53.231; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=1
+INFO  - 2018-04-25 14:50:55.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:57.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:50:59.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:51:01.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:51:02.946; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:51:04.548; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524665822224} status=0 QTime=0
+INFO  - 2018-04-25 14:51:06.137; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1524667865915} status=0 QTime=1
+INFO  - 2018-04-25 14:51:06.142; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1524667866123} status=0 QTime=1
+INFO  - 2018-04-25 14:51:06.149; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1524667866123} status=0 QTime=2
+INFO  - 2018-04-25 14:51:06.187; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1524667865916} status=0 QTime=50
+INFO  - 2018-04-25 14:51:06.314; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:07.971; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:09.980; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:11.798; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2018-04-25 14:51:11.805; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; id is a required field in SolrSchema . But not found in DataConfig
+INFO  - 2018-04-25 14:51:11.805; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; The field :rqst_id present in DataConfig does not have a counterpart in Solr Schema
+INFO  - 2018-04-25 14:51:11.805; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2018-04-25 14:51:11.814; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=18
+INFO  - 2018-04-25 14:51:11.815; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2018-04-25 14:51:11.820; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:11.830; [   x:db] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2018-04-25 14:51:11.861; [   x:db] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=18{} 0 65
+ERROR - 2018-04-25 14:51:11.862; [   x:db] org.apache.solr.common.SolrException; Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:159)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.init(JdbcDataSource.java:80)
+	at org.apache.solr.handler.dataimport.DataImporter.getDataSourceInstance(DataImporter.java:397)
+	at org.apache.solr.handler.dataimport.ContextImpl.getDataSource(ContextImpl.java:100)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.init(SqlEntityProcessor.java:53)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.init(EntityProcessorWrapper.java:77)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:434)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: Unable to load oracle.jdbc.driver.OracleDriver or org.apache.solr.handler.dataimport.oracle.jdbc.driver.OracleDriver
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:935)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:157)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'oracle.jdbc.driver.OracleDriver'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:488)
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:926)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 16 more
+
+INFO  - 2018-04-25 14:51:11.862; [   x:db] org.apache.solr.update.DirectUpdateHandler2; start rollback{}
+INFO  - 2018-04-25 14:51:11.868; [   x:db] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2018-04-25 14:51:11.868; [   x:db] org.apache.solr.update.DirectUpdateHandler2; end_rollback
+INFO  - 2018-04-25 14:51:11.979; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=1
+INFO  - 2018-04-25 14:51:13.323; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2018-04-25 14:51:13.325; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; id is a required field in SolrSchema . But not found in DataConfig
+INFO  - 2018-04-25 14:51:13.325; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; The field :rqst_id present in DataConfig does not have a counterpart in Solr Schema
+INFO  - 2018-04-25 14:51:13.325; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2018-04-25 14:51:13.326; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=3
+INFO  - 2018-04-25 14:51:13.326; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2018-04-25 14:51:13.331; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:13.331; [   x:db] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2018-04-25 14:51:13.347; [   x:db] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=3{} 0 25
+ERROR - 2018-04-25 14:51:13.348; [   x:db] org.apache.solr.common.SolrException; Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:159)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.init(JdbcDataSource.java:80)
+	at org.apache.solr.handler.dataimport.DataImporter.getDataSourceInstance(DataImporter.java:397)
+	at org.apache.solr.handler.dataimport.ContextImpl.getDataSource(ContextImpl.java:100)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.init(SqlEntityProcessor.java:53)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.init(EntityProcessorWrapper.java:77)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:434)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: Unable to load oracle.jdbc.driver.OracleDriver or org.apache.solr.handler.dataimport.oracle.jdbc.driver.OracleDriver
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:935)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:157)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'oracle.jdbc.driver.OracleDriver'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:488)
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:926)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 16 more
+
+INFO  - 2018-04-25 14:51:13.348; [   x:db] org.apache.solr.update.DirectUpdateHandler2; start rollback{}
+INFO  - 2018-04-25 14:51:13.353; [   x:db] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2018-04-25 14:51:13.354; [   x:db] org.apache.solr.update.DirectUpdateHandler2; end_rollback
+INFO  - 2018-04-25 14:51:13.976; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:14.211; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2018-04-25 14:51:14.213; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; id is a required field in SolrSchema . But not found in DataConfig
+INFO  - 2018-04-25 14:51:14.213; [   x:db] org.apache.solr.handler.dataimport.config.DIHConfiguration; The field :rqst_id present in DataConfig does not have a counterpart in Solr Schema
+INFO  - 2018-04-25 14:51:14.213; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2018-04-25 14:51:14.214; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=3
+INFO  - 2018-04-25 14:51:14.214; [   x:db] org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2018-04-25 14:51:14.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:14.221; [   x:db] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2018-04-25 14:51:14.243; [   x:db] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1524667866123&verbose=false} status=0 QTime=3{} 0 33
+ERROR - 2018-04-25 14:51:14.244; [   x:db] org.apache.solr.common.SolrException; Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Could not load driver: oracle.jdbc.driver.OracleDriver Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:159)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.init(JdbcDataSource.java:80)
+	at org.apache.solr.handler.dataimport.DataImporter.getDataSourceInstance(DataImporter.java:397)
+	at org.apache.solr.handler.dataimport.ContextImpl.getDataSource(ContextImpl.java:100)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.init(SqlEntityProcessor.java:53)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.init(EntityProcessorWrapper.java:77)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:434)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: Unable to load oracle.jdbc.driver.OracleDriver or org.apache.solr.handler.dataimport.oracle.jdbc.driver.OracleDriver
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:935)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.createConnectionFactory(JdbcDataSource.java:157)
+	... 13 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'oracle.jdbc.driver.OracleDriver'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:488)
+	at org.apache.solr.handler.dataimport.DocBuilder.loadClass(DocBuilder.java:926)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 16 more
+
+INFO  - 2018-04-25 14:51:14.244; [   x:db] org.apache.solr.update.DirectUpdateHandler2; start rollback{}
+INFO  - 2018-04-25 14:51:14.246; [   x:db] org.apache.solr.update.DefaultSolrCoreState; New IndexWriter is ready to be used.
+INFO  - 2018-04-25 14:51:14.246; [   x:db] org.apache.solr.update.DirectUpdateHandler2; end_rollback
+INFO  - 2018-04-25 14:51:15.981; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:17.974; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:19.975; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:21.975; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:23.979; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:25.977; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:27.975; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:29.973; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:31.980; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:33.973; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:35.973; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:37.974; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:39.977; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:41.977; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:43.974; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:45.976; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:47.976; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:49.977; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:51.979; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:53.976; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:55.977; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:57.979; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:51:59.981; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:02.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:04.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:06.228; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:08.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:10.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:12.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:14.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:16.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:18.229; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:20.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:22.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=1
+INFO  - 2018-04-25 14:52:24.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:26.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:28.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:30.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:32.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:34.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:36.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:38.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:40.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:42.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:44.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:46.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:48.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:50.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:52.229; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:54.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:56.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:52:58.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:00.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:02.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:04.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:06.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:08.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:10.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:12.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:14.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:16.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:18.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:20.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:22.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:24.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:26.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:28.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:30.232; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:32.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:34.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:36.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:38.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:40.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:42.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:44.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:46.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:48.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:50.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:52.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:54.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:56.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:53:58.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:00.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:02.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:04.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:06.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:08.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:10.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:12.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:14.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:16.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:18.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:20.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:22.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:24.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:26.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:28.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:30.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:32.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:34.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:36.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:38.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:40.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:42.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:44.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:46.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:48.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:50.228; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:52.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:54.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:56.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:54:58.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:00.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:02.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:04.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:06.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:08.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:10.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:12.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:14.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:16.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:18.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:20.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:22.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:24.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:26.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:28.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:30.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:32.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:34.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:36.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:38.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:40.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:42.231; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:44.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:46.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:48.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:50.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:52.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:54.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:56.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:55:58.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:00.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:02.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:04.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:06.231; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:08.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:10.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:12.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:14.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:16.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:18.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:20.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:22.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:24.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:26.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:28.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:30.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:32.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:34.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:36.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:38.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:40.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:42.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:44.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:46.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:48.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:50.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:52.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:54.229; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:56.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:56:58.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:00.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:02.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:04.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:06.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:08.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:10.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:12.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:14.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:16.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:18.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:20.224; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:22.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:24.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:26.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:28.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:30.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:32.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:34.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:36.221; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:38.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:40.226; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=1
+INFO  - 2018-04-25 14:57:42.228; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:44.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:46.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:48.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:50.217; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:52.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:54.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:56.215; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:57:58.222; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:00.216; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:02.220; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:04.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:06.227; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:08.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:10.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:12.219; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:14.223; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:16.225; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:18.218; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1524667866123} status=0 QTime=0
+INFO  - 2018-04-25 14:58:18.830; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@7f284218{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-04-25 14:58:18.830; [   ] org.eclipse.jetty.server.session.HouseKeeper; Stopped scavenging
+INFO  - 2018-04-25 14:58:18.831; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=230643635
+INFO  - 2018-04-25 14:58:18.831; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.node, tag=null
+INFO  - 2018-04-25 14:58:18.831; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jvm, tag=null
+INFO  - 2018-04-25 14:58:18.831; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jetty, tag=null
+INFO  - 2018-04-25 14:58:18.832; [   x:db] org.apache.solr.core.SolrCore; [db]  CLOSING SolrCore org.apache.solr.core.SolrCore@7cff4ed3
+INFO  - 2018-04-25 14:58:18.832; [   x:mail] org.apache.solr.core.SolrCore; [mail]  CLOSING SolrCore org.apache.solr.core.SolrCore@425a5f64
+INFO  - 2018-04-25 14:58:18.832; [   x:atom] org.apache.solr.core.SolrCore; [atom]  CLOSING SolrCore org.apache.solr.core.SolrCore@36446e4e
+INFO  - 2018-04-25 14:58:18.832; [   x:tika] org.apache.solr.core.SolrCore; [tika]  CLOSING SolrCore org.apache.solr.core.SolrCore@ad42a9
+INFO  - 2018-04-25 14:58:18.832; [   x:db] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.db, tag=2097106643
+INFO  - 2018-04-25 14:58:18.833; [   x:solr] org.apache.solr.core.SolrCore; [solr]  CLOSING SolrCore org.apache.solr.core.SolrCore@7e0d50a9
+INFO  - 2018-04-25 14:58:18.833; [   x:mail] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.mail, tag=1113218916
+INFO  - 2018-04-25 14:58:18.833; [   x:atom] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.atom, tag=910454350
+INFO  - 2018-04-25 14:58:18.833; [   x:tika] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.tika, tag=11354793
+INFO  - 2018-04-25 14:58:18.834; [   x:solr] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.solr, tag=2114801833
+INFO  - 2018-04-25 14:58:18.848; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@5bb21b69{/solr,null,UNAVAILABLE}{file:///C:/Programs/solr/solr-7.3.0/server//solr-webapp/webapp}

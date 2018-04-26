@@ -1,0 +1,13 @@
+<dataConfig>
+    <dataSource name="jdbc"
+                driver="oracle.jdbc.driver.OracleDriver"
+                url="jdbc:oracle:thin:@ryelxwebeqfdbc1.rye.avon.com:1521:webgceqf"
+                user="readonly"
+                password="readonly"/>
+    <document>
+        <entity name="item" query="select * from rqst">
+            <field column="RQST_ID" name="rqst_id"/>
+        </entity>
+    </document>
+</dataConfig>
+
